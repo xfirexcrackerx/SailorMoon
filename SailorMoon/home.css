@@ -1,0 +1,74 @@
+@font-face {
+    font-family: moonstar;
+    src: url(font/Moonstar.ttf);
+}
+@font-face {
+    font-family: honeymoon;
+    src: url(font/Honeymoon.ttf);
+}
+@font-face {
+    font-family: content;
+    src: url(font/contentFont.ttf);
+}
+body{
+    background: url("images/home-wallpaper.png")no-repeat center center fixed;
+    background-size: cover;
+}
+h1{
+    text-shadow:2px 2px 8px yellow;
+    font-size: 5em;
+    color: #3ab0f0;
+    text-align: center;
+    font-family: moonstar;
+    position: relative
+}
+nav ul {
+    font-family: honeymoon;
+    padding: 0;
+    height: 45px;
+    width: 100%;
+    background-color: #086CA2;
+    margin: 0 auto;
+
+}
+li{
+    position: relative;
+    float: left;
+    padding:5px 50px;
+    font-size: 1.5rem;
+    display: inline-block;
+}
+li a{
+    text-decoration: none;
+    color: #050c2a;
+}
+li a:hover{
+    color: #64AAD0
+}
+.active{
+    color: #ffe74c;
+}
+.active:hover{
+    color: #64AAD0;
+}
+content p{
+    padding: 50px;
+    margin: 0 auto;
+    font-family: content;
+    font-size: 2em;
+    background-color: transparent;
+    color: white;
+}
+@media all and (max-width: 1500px) {
+    ul.topnav { height: auto;margin: 0 auto }
+    ul.topnav > li { float: none;}
+    ul.topnav a { line-height: 40px; }
+    ul.topnav ul { position: relative; }
+}
+
+footer{
+    background: black;
+    color: #086CA2;
+    text-align: center;
+    margin-top: 50px;
+}
