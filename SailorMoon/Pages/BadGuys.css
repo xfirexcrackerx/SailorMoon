@@ -1,22 +1,29 @@
 @font-face {
     font-family: moonstar;
-    src: url(../../font/Moonstar.ttf);
+    src: url(../font/Moonstar.ttf);
 }
 @font-face {
     font-family: honeymoon;
-    src: url(../../font/Honeymoon.ttf);
+    src: url(../font/Honeymoon.ttf);
 }
 @font-face {
     font-family: content;
-    src: url(../../font/contentFont.ttf);
+    src: url(../font/contentFont.ttf);
 }
 *{
-    cursor: url(../../font/moon-stick.cur), auto
+    cursor: url(../font/Cursors/badGuys.cur), auto
 }
 body{
-    background: url("../../images/sailor-moon-wallpaper.jpg")no-repeat fixed;
+    background: url("../images/BadGuysWallpaper.jpg")no-repeat center center fixed;
     background-size: cover;
     font-size: 25px;
+}
+h1{
+    text-shadow:2px 2px 8px yellow;
+    font-size: 45px;
+    color: darkred;
+    text-align: center;
+    position: relative
 }
 nav ul {
     font-family: honeymoon;
@@ -40,6 +47,7 @@ nav ul ul li{
 nav ul li:hover>ul{
     display: inline-block;
 }
+
 li{
     position: relative;
     float: left;
@@ -58,64 +66,36 @@ li a{
 .active{
     color: #64AAD0;
 }
-
-content h3{
-    color: white;
-    font-family: moonstar;
+content p{
     text-align: center;
-    font-size: 60px;
-    background: black;
-    opacity:0.9;
-}
-
-h4{
-    letter-spacing: 2px;
-    font-family: moonstar;
-    text-align: center;
-    font-size: 50px;
-}
-article{
-    display: inline;
-    border: 5px solid black;
-    background: lightpink;
-    color: black;
-    opacity: 0.8;
+    font-family: content;
+    font-size: 40px;
+    background-color: black;
+    opacity: 0.9;
+    border: solid yellow 2px;
+    border-radius: 25px;
+    width: 200px;
     float: left;
-    width: 62.5em;
+    margin: 100px 90px;
 }
-p::first-letter{
-    font-size: 45px;
-    font-family: moonstar;
-}
-.makaiju{
-    width: 300px;
-    margin-left: 1200px;
-    margin-top: -200px;
-}
-h5{
-    text-align: center;
-    font-size: 2rem;
+content p:hover{
+    opacity: 0.7;
+    border: solid red 2px;
+    border-radius: 25px;
 }
 a{
+    color: red;
     text-decoration: none;
-    color: darkmagenta;
 }
-.float{
-    margin-left: 480px;
-    margin-top: -190px;
-}
-.giphy{
-    margin-left: 1050px;
-    margin-top: -200px;
-}
-.last{
-    width: 1000px;
+a:hover{
+    color: yellow;
 }
 footer{
+    float: left;
     font-family: "Comic Sans MS";
     background: black;
     color: #086CA2;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 250px;
     width: 1575px;
 }

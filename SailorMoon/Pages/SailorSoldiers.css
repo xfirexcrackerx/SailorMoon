@@ -1,0 +1,141 @@
+@font-face {
+    font-family: moonstar;
+    src: url(../font/Moonstar.ttf);
+}
+@font-face {
+    font-family: honeymoon;
+    src: url(../font/Honeymoon.ttf);
+}
+@font-face {
+    font-family: content;
+    src: url(../font/contentFont.ttf);
+}
+body{
+    background: url("../images/backgroundSailorSoldires.jpg")no-repeat center center fixed;
+    background-size: cover;
+    font-size: 25px;
+}
+
+nav ul {
+    font-family: honeymoon;
+    padding: 0;
+    height: 43px;
+    width: 100%;
+    background-color: #086CA2;
+    margin: 0 auto;
+    position: relative;
+}
+nav ul ul{
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+nav ul ul li{
+    background-color: #086CA2;
+    position: relative;
+    width: 248px;
+}
+nav ul li:hover>ul{
+    display: inline-block;
+}
+
+li{
+    position: relative;
+    float: left;
+    padding:5px 65px;
+    font-size: 1.5rem;
+    display: inline-block;
+}
+li:hover{
+    background: yellow;
+}
+li a{
+    text-align: center;
+    text-decoration: none;
+    color: #050c2a;
+}
+.active{
+    color: #64AAD0;
+}
+content table{
+    margin-top: 100px;
+    font-family: content;
+    background-color: black ;
+    opacity: 0.9;
+    color: white;
+    border: solid yellow 2px;
+}
+.nameOfCharacter{
+    color: yellow;
+}
+table, th, td{
+    border: 2px white solid;
+}
+th{
+    font-size: 40px;
+    height: 50px;
+    font-family: moonstar;
+    letter-spacing: 2px;
+
+}
+.insideTable{
+    margin-left: 50px;
+}
+
+.insideTable, .insideTable td,.insideTable th{
+    border: 1px dashed white;
+
+}
+.insideTable td{
+    padding-left: 50px;
+    font-size: 28px;
+}
+.insideTable th{
+    font-family: honeymoon;
+}
+.insideTableSpecial{
+    color: pink;
+}
+.imageRow{
+    width: 200px;
+}
+
+.SailorMoon{
+    cursor: url(../font/Cursors/MoonSimbol.cur), auto
+}
+.SailorMercury{
+    cursor: url(../font/Cursors/MercurySimbol.cur), auto
+}
+.SailorMars{
+    cursor: url(../font/Cursors/MarsSimbol.cur), auto
+}
+.SailorChibiMoon{
+    cursor: url(../font/Cursors/ChbiusaSimbol.cur), auto
+}
+.SailorJupiter{
+    cursor: url(../font/Cursors/JupiterSimbol.cur), auto
+}
+.SailorNeptune{
+    cursor: url(../font/Cursors/NeptunSimbol.cur), auto
+}
+.SailorPluto{
+    cursor: url(../font/Cursors/PlutoSimbol.cur), auto
+}
+.SailorSaturn{
+    cursor: url(../font/Cursors/SaturnSimbol.cur), auto
+}
+.SailorUranus{
+    cursor: url(../font/Cursors/UranusSimbol.cur), auto
+}
+.SailorVenus{
+    cursor: url(../font/Cursors/VenusSimbol.cur), auto
+}
+footer{
+    float: left;
+    font-family: "Comic Sans MS";
+    background: black;
+    color: #086CA2;
+    text-align: center;
+    margin-top: 50px;
+    width: 1575px;
+}

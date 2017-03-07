@@ -11,11 +11,12 @@
     src: url(font/contentFont.ttf);
 }
 *{
-    cursor: url(font/cursor1.cur), auto
+    cursor: url(font/Cursors/cursor1.cur), auto
 }
 body{
     background: url("images/home-wallpaper.png")no-repeat center center fixed;
     background-size: cover;
+    font-size: 25px;
 }
 h1{
     text-shadow:2px 2px 8px yellow;
@@ -84,9 +85,11 @@ content p{
 }
 
 footer{
+    float: left;
     font-family: "Comic Sans MS";
     background: black;
     color: #086CA2;
     text-align: center;
     margin-top: 50px;
+    width: 1575px;
 }

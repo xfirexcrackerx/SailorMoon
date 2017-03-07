@@ -11,7 +11,7 @@
     src: url(../../font/contentFont.ttf);
 }
 *{
-    cursor: url(../../font/moon-stick.cur), auto
+    cursor: url(../../font/Cursors/moon-stick.cur), auto
 }
 body{
     background: url("../../images/sailor-moon-wallpaper.jpg")no-repeat fixed;
@@ -88,6 +88,16 @@ p::first-letter{
 p{
     text-align: center;
     width: 50%;
+}
+img{
+   margin-left: 800px;
+    margin-top: -1350px;
+    position: relative;
+    top:-200px;
+    width: 750px;
+    height: 900px;
+    border: 1px solid black;
+    border-radius: 25px;
 }
 footer{
     font-family: "Comic Sans MS";

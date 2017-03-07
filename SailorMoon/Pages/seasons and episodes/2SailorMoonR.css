@@ -11,7 +11,7 @@
     src: url(../../font/contentFont.ttf);
 }
 *{
-    cursor: url(../../font/moon-stick.cur), auto
+    cursor: url(../../font/Cursors/moon-stick.cur), auto
 }
 body{
     background: url("../../images/sailor-moon-wallpaper.jpg")no-repeat fixed;

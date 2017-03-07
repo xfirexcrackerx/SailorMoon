@@ -11,7 +11,7 @@
     src: url(../../font/contentFont.ttf);
 }
 *{
-    cursor: url(../../font/moon-stick.cur), auto
+    cursor: url(../../font/Cursors/moon-stick.cur), auto
 }
 body{
     background: url("../../images/sailor-moon-wallpaper.jpg")no-repeat fixed;
@@ -120,14 +120,16 @@ p:nth-child(4){
 .mercury{
     border: 2px solid black;
     border-radius: 25px;
-    margin-top: -750px;
-    padding:0 20px;
+    position: relative;
+    top:-550px;
+
+
 }
 p:nth-child(6){
     width: 1000px;
     position: relative;
     left: 500px;
-    margin-top: -200px;
+    margin-top: -680px;
 }
 P:nth-child(18){
     width: 1000px;
@@ -140,11 +142,11 @@ P:nth-child(18){
     margin-left: 1050px;
     margin-top: -500px;
 }
+
 footer{
     font-family: "Comic Sans MS";
     background: black;
     color: #086CA2;
     text-align: center;
-    margin-top: 50px;
     width: 1575px;
 }
