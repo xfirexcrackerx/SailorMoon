@@ -6,7 +6,7 @@
     cursor: url(../../font/Cursors/badGuys.cur), auto
 }
 body{
-    background: url("../../Images/TheNegaverse.jpg")no-repeat fixed;
+    background: url("../../Images/backgrounds/TheNegaverse.jpg")no-repeat fixed;
     background-size: cover;
 }
 section {

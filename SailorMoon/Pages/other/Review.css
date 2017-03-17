@@ -15,7 +15,7 @@
     cursor: url(../../font/Cursors/cursor1.cur), auto
 }
 body{
-    background: url("../../Images/review-background.jpg")no-repeat ;
+    background: url("../../Images/backgrounds/review-background.jpg")no-repeat ;
     background-size: cover;
     font-size: 25px;
 }
@@ -74,7 +74,20 @@ h1{
     border-radius: 25px;
 
 }
-
+#about{
+    text-decoration: none;
+    font-family: moonstar;
+    font-size: 45px;
+    position: relative;
+    top:300px;
+    left: 150px;
+    color: #3ab0f0;
+}
+#about:hover{
+    border: 1px solid darkblue;
+    border-radius: 25px;
+    opacity: 0.9;
+}
 footer{
     float: left;
     font-family: "Comic Sans MS";

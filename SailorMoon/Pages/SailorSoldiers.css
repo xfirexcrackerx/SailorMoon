@@ -11,7 +11,7 @@
     src: url(../font/contentFont.ttf);
 }
 body{
-    background: url("../Images/backgroundSailorSoldires.jpg")no-repeat center center fixed;
+    background: url("../Images/backgrounds/backgroundSailorSoldires.jpg")no-repeat center center fixed;
     background-size: cover;
     font-size: 25px;
 }
@@ -70,6 +70,7 @@ section table{
 }
 table, th, td{
     border: 2px white solid;
+    width: 1025px;
 }
 th{
     font-size: 40px;
@@ -103,6 +104,14 @@ img{
     width: 300px;
     height: 500px;
 }
+p{
+    width: 1020px;
+    padding-left: 50px;
+}
+dl{
+    width: 1020px;
+    padding-left: 50px;
+}
 .SailorMoon{
     cursor: url(../font/Cursors/MoonSimbol.cur), auto
 }
@@ -132,6 +141,160 @@ img{
 }
 .SailorVenus{
     cursor: url(../font/Cursors/VenusSimbol.cur), auto
+}
+#backToTop{
+    display: none;
+    position: fixed;
+    bottom: 40px;
+    right: -10px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: darkred;
+    font-weight: bolder;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+#moonScroll{
+    width: 160px;
+    position: fixed;
+    bottom: 630px;
+    right: -10px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: yellow;
+    font-weight: bolder;
+    color: black;
+    padding: 15px;
+    border-radius: 10px;
+}
+#mercuryScroll{
+    width: 160px;
+    position: fixed;
+    bottom: 590px;
+    right: -10px;
+    z-index: 98;
+    border: none;
+    outline: none;
+    background-color: cornflowerblue;
+    font-weight: bolder;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+#marsScroll{
+    width: 160px;
+    position: fixed;
+    bottom: 550px;
+    right: -10px;
+    z-index: 97;
+    border: none;
+    outline: none;
+    background-color: red;
+    font-weight: bolder;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+#jupiterScroll{
+    width: 160px;
+    position: fixed;
+    bottom: 510px;
+    right: -10px;
+    z-index: 96;
+    border: none;
+    outline: none;
+    background-color: green;
+    font-weight: bolder;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+#venusScroll{
+    width: 160px;
+    position: fixed;
+    bottom: 470px;
+    right: -10px;
+    z-index: 95;
+    border: none;
+    outline: none;
+    background-color: orange;
+    font-weight: bolder;
+    color: black;
+    padding: 15px;
+    border-radius: 10px;
+}
+#plutoScroll{
+    width: 160px;
+    position: fixed;
+    bottom: 430px;
+    right: -10px;
+    z-index: 94;
+    border: none;
+    outline: none;
+    background-color: darkred;
+    font-weight: bolder;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+#uranusScroll{
+    width: 160px;
+    position: fixed;
+    bottom: 390px;
+    right: -10px;
+    z-index: 93;
+    border: none;
+    outline: none;
+    background-color: darkblue;
+    font-weight: bolder;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+#neptuneScroll{
+    width: 160px;
+    position: fixed;
+    bottom: 350px;
+    right: -10px;
+    z-index: 92;
+    border: none;
+    outline: none;
+    background-color: lightskyblue;
+    font-weight: bolder;
+    color: black;
+    padding: 15px;
+    border-radius: 10px;
+}
+#saturnScroll{
+    width: 160px;
+    position: fixed;
+    bottom: 310px;
+    right: -10px;
+    z-index: 91;
+    border: none;
+    outline: none;
+    background-color: purple;
+    font-weight: bolder;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+#chibiMoonScroll{
+    width: 160px;
+    position: fixed;
+    bottom: 270px;
+    right: -10px;
+    z-index: 90;
+    border: none;
+    outline: none;
+    background-color: pink;
+    font-weight: bolder;
+    color: black;
+    padding: 15px;
+    border-radius: 10px;
 }
 footer{
     float: left;

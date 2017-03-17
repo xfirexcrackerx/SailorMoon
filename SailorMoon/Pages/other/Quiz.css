@@ -14,7 +14,7 @@
     cursor: url(../../font/Cursors/cursor1.cur), auto
 }
 body{
-    background: url("../../Images/backgroundSailorSoldires.jpg")no-repeat center fixed;
+    background: url("../../Images/backgrounds/backgroundSailorSoldires.jpg")no-repeat center fixed;
     background-size: cover;
     font-size: 25px;
 }
@@ -69,6 +69,7 @@ h1{
 
 .answers li {
     list-style: upper-alpha;
+    cursor: pointer;
 }
 
 label {
@@ -82,6 +83,7 @@ label {
     width: 800px;
     border: 3px dashed hotpink;
     border-radius: 25px;
+    cursor: pointer;
 }
 #results {
     background: hotpink;
@@ -128,6 +130,21 @@ img{
     width: 300px;
     height: 500px;
 }
+#backToTop{
+    display: none;
+    position: fixed;
+    bottom: 40px;
+    right: -10px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: darkred;
+    font-weight: bolder;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
 footer{
     float: left;
     font-family: "Comic Sans MS";

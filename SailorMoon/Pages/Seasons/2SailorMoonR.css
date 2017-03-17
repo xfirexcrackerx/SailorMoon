@@ -14,7 +14,7 @@
     cursor: url(../../font/Cursors/moon-stick.cur), auto
 }
 body{
-    background: url("../../Images/sailor-moon-wallpaper.jpg")no-repeat fixed;
+    background: url("../../Images/backgrounds/sailor-moon-wallpaper.jpg")no-repeat fixed;
     background-size: cover;
     font-size: 25px;
 }
@@ -68,84 +68,73 @@ section h3{
     opacity:0.9;
 }
 
-article{
-    border: 5px solid black;
-    background: lightpink;
-    color: black;
-    opacity: 0.8;
-    float: left;
-    width: 62.5em;
-
-}
 h4{
     letter-spacing: 2px;
     font-family: moonstar;
     text-align: center;
     font-size: 50px;
 }
-.firstArticle, h4{
+article{
+    display: inline;
+    border: 5px solid black;
+    background: lightpink;
+    color: black;
+    opacity: 0.8;
     float: left;
-    width: 1000px;
-}
-
-#first-gif{
-    border: 2px solid black;
-    position: relative;
-    top: -80px;
-    right: 30px;
-    float: right;
-    width: 480px;
-    height: 360px;
-}
-article p {
-    padding: 0 15px;
-}
-#summary-gif{
-    border: 2px solid black;
-    margin: 30px 25px;
-    width:480px;
-    height:359px;
-}
-.firstP{
-    position: relative;
-    top: -300px;
-    width: 1000px;
+    width: 62.5em;
 }
 p::first-letter{
     font-size: 45px;
     font-family: moonstar;
 }
-p:nth-child(4){
-   position: relative;
-   top:-300px;
-   left: 500px;
-   width: 1000px;
-}
-.mercury{
+.makaiju{
     border: 2px solid black;
-    border-radius: 25px;
-    position: relative;
-    top:-550px;
-    width: 400px;
-    height: 450px;
-
+    width: 300px;
+    margin-left: 1200px;
+    margin-top: -200px;
 }
-p:nth-child(6){
-    width: 1000px;
-    position: relative;
-    left: 500px;
-    margin-top: -680px;
+h5{
+    text-align: center;
+    font-size: 2rem;
 }
-P:nth-child(18){
-    width: 1000px;
+a{
+    text-decoration: none;
+    color: darkmagenta;
 }
-.sailor-moon-gif{
+.float{
+    margin-left: 480px;
+    margin-top: -190px;
+}
+img{
     border: 2px solid black;
-    margin: 0 500px;
 }
-.youtubeVideo{
+.firstImg{
+    width: 100%;
+    height: 50%;
+}
+.giphy{
+    border: 2px solid black;
     margin-left: 1050px;
-    margin-top: -500px;
+    margin-top: -200px;
+    width: 480px;
+    height: 351px;
+}
+.last{
+    width: 1000px;
+}
+#backToTop{
+    display: none;
+    position: fixed;
+    bottom: 40px;
+    right: -10px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: darkred;
+    font-weight: bolder;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
 }
 
 footer{
@@ -153,5 +142,6 @@ footer{
     background: black;
     color: #086CA2;
     text-align: center;
+    margin-top: 50px;
     width: 1575px;
 }

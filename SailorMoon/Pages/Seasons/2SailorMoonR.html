@@ -25,10 +25,10 @@
         <li><a href="../BadGuys.html">The Bad Guys</a></li>
         <li><a href="">Others ▼</a>
             <ul>
-                <li><a href="../other/Chat.html">Chat</a></li>
-                <li><a href="../other/Games.html">Games</a></li>
-                <li><a href="../other/Quiz.html">Quiz</a></li>
-                <li><a href="../other/Review.html">Leave a review</a></li>
+                <li><a href="../Other/Chat.html">Chat</a></li>
+                <li><a href="../Other/Games.html">Games</a></li>
+                <li><a href="../Other/Quiz.html">Quiz</a></li>
+                <li><a href="../Other/Review.html">Leave a review</a></li>
             </ul>
         </li>
     </ul>
@@ -97,6 +97,23 @@
     <iframe src="//giphy.com/embed/3CF9inrufRPPi" class="giphy"></iframe>
 </article>
 </section>
+<button onclick="topFunction()" id="backToTop" title="Go to top">Back to the top</button>
+<script>
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 20) {
+            document.getElementById("backToTop").style.display = "block";
+        } else {
+            document.getElementById("backToTop").style.display = "none";
+        }
+    }
+    function topFunction() {
+        document.body.scrollTop = 0; // For Chrome, Safari and Opera
+        document.documentElement.scrollTop = 0; // For IE and Firefox
+    }
+</script>
+
 <footer>
     <span><marquee behavior="scroll" direction="left">Krisi is awesome &reg; </marquee></span>
 </footer>
