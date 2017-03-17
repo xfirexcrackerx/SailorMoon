@@ -43,7 +43,7 @@ nav ul li:hover>ul{
 li{
     position: relative;
     float: left;
-    padding:5px 65px;
+    padding:5px 62px;
     font-size: 1.5rem;
     display: inline-block;
 }
