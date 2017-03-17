@@ -11,7 +11,7 @@
     src: url(../font/contentFont.ttf);
 }
 body{
-    background: url("../images/backgroundSailorSoldires.jpg")no-repeat center center fixed;
+    background: url("../Images/backgroundSailorSoldires.jpg")no-repeat center center fixed;
     background-size: cover;
     font-size: 25px;
 }
@@ -57,7 +57,7 @@ li a{
 .active{
     color: #64AAD0;
 }
-content table{
+section table{
     margin-top: 100px;
     font-family: content;
     background-color: black ;
@@ -99,7 +99,10 @@ th{
 .imageRow{
     width: 200px;
 }
-
+img{
+    width: 300px;
+    height: 500px;
+}
 .SailorMoon{
     cursor: url(../font/Cursors/MoonSimbol.cur), auto
 }

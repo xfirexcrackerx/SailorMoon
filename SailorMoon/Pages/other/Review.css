@@ -15,7 +15,7 @@
     cursor: url(../../font/Cursors/cursor1.cur), auto
 }
 body{
-    background: url("../../images/review-background.jpg")no-repeat ;
+    background: url("../../Images/review-background.jpg")no-repeat ;
     background-size: cover;
     font-size: 25px;
 }

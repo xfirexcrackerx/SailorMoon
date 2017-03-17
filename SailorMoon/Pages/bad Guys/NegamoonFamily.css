@@ -6,10 +6,10 @@
     cursor: url(../../font/Cursors/badGuys.cur), auto
 }
 body{
-    background: url("../../images/NegamoonFamilyWallpaper.jpg")no-repeat fixed;
+    background: url("../../Images/NegamoonFamilyWallpaper.jpg")no-repeat fixed;
     background-size: cover;
 }
-content {
+article {
     float: left;
     width: 500px;
     padding: 50px;
@@ -23,7 +23,7 @@ content {
     border-radius: 25px;
 }
 li.customBullet{
-    list-style-image: url("../../images/negaMoon.png");
+    list-style-image: url("../../Images/negaMoon.png");
 }
 h4{
     color: dodgerblue;

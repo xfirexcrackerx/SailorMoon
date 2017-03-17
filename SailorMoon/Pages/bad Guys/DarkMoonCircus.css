@@ -6,10 +6,10 @@
     cursor: url(../../font/Cursors/badGuys.cur), auto
 }
 body{
-    background: url("../../images/darkCircusWallpaper.jpg")no-repeat fixed;
+    background: url("../../Images/darkCircusWallpaper.jpg")no-repeat fixed;
     background-size: cover;
 }
-content {
+section {
     float: left;
     padding: 50px;
     margin: 30px 30px;
@@ -22,7 +22,11 @@ content {
     border-radius: 25px;
 }
 li.customBullet{
-    list-style-image: url("../../images/negaMoon.png");
+    list-style-image: url("../../Images/negaMoon.png");
+}
+img{
+    width:450px;
+    height:300px;
 }
 figure{
     float: left;

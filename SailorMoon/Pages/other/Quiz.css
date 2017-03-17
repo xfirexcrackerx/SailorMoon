@@ -14,7 +14,7 @@
     cursor: url(../../font/Cursors/cursor1.cur), auto
 }
 body{
-    background: url("../../images/backgroundSailorSoldires.jpg")no-repeat center fixed;
+    background: url("../../Images/backgroundSailorSoldires.jpg")no-repeat center fixed;
     background-size: cover;
     font-size: 25px;
 }
@@ -75,7 +75,14 @@ label {
     margin-left: 0.5em;
     cursor: pointer;
 }
-
+#answersDiv{
+    background: white;
+    opacity: 0.8;
+    margin-left:370px;
+    width: 800px;
+    border: 3px dashed hotpink;
+    border-radius: 25px;
+}
 #results {
     background: hotpink;
     color: #000000;
@@ -116,6 +123,10 @@ label {
     background: white;
     display: inline-block;
     border: 1px solid black;
+}
+img{
+    width: 300px;
+    height: 500px;
 }
 footer{
     float: left;

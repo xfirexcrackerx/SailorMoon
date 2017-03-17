@@ -6,10 +6,10 @@
     cursor: url(../../font/Cursors/badGuys.cur), auto
 }
 body{
-    background: url("../../images/TheNegaverse.jpg")no-repeat fixed;
+    background: url("../../Images/TheNegaverse.jpg")no-repeat fixed;
     background-size: cover;
 }
-content {
+section {
     float: left;
     width: 500px;
     padding: 50px;
@@ -22,8 +22,11 @@ content {
     border: solid darkred 2px;
     border-radius: 25px;
 }
+img{
+    width: 500px;
+}
 li.customBullet{
-    list-style-image: url("../../images/negaMoon.png");
+    list-style-image: url("../../Images/negaMoon.png");
 }
 h4{
     color: darkred;

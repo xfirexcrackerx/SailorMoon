@@ -14,7 +14,7 @@
     cursor: url(../../font/Cursors/moon-stick.cur), auto
 }
 body{
-    background: url("../../images/sailor-moon-wallpaper.jpg")no-repeat fixed;
+    background: url("../../Images/sailor-moon-wallpaper.jpg")no-repeat fixed;
     background-size: cover;
     font-size: 25px;
 }
@@ -58,7 +58,7 @@ li a{
 .active{
     color: #64AAD0;
 }
-content h3{
+section h3{
     color: white;
     font-family: moonstar;
     text-align: center;
@@ -98,6 +98,9 @@ summary{
     font-family: moonstar;
     text-transform: uppercase;
     text-align: center;
+}
+.movieSuperS{
+    height: 271px;
 }
 footer{
     font-family: "Comic Sans MS";

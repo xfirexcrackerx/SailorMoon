@@ -14,7 +14,7 @@
     cursor: url(../../font/Cursors/moon-stick.cur), auto
 }
 body{
-    background: url("../../images/sailor-moon-wallpaper.jpg")no-repeat fixed;
+    background: url("../../Images/sailor-moon-wallpaper.jpg")no-repeat fixed;
     background-size: cover;
     font-size: 25px;
 }
@@ -59,7 +59,7 @@ li a{
     color: #64AAD0;
 }
 
-content h3{
+section h3{
     color: white;
     font-family: moonstar;
     text-align: center;
@@ -108,10 +108,16 @@ a{
 img{
     border: 2px solid black;
 }
+.firstImg{
+    width: 100%;
+    height: 50%;
+}
 .giphy{
     border: 2px solid black;
     margin-left: 1050px;
     margin-top: -200px;
+    width: 480px;
+    height: 351px;
 }
 .last{
     width: 1000px;

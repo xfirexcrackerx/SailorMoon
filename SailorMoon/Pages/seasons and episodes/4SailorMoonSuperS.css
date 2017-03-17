@@ -14,7 +14,7 @@
     cursor: url(../../font/Cursors/moon-stick.cur), auto
 }
 body{
-    background: url("../../images/sailor-moon-wallpaper.jpg")no-repeat fixed;
+    background: url("../../Images/sailor-moon-wallpaper.jpg")no-repeat fixed;
     background-size: cover;
     font-size: 25px;
 }
@@ -59,7 +59,7 @@ li a{
     color: #64AAD0;
 }
 
-content h3{
+section h3{
     color: white;
     font-family: moonstar;
     text-align: center;
@@ -107,7 +107,7 @@ iframe{
 img{
     position: absolute;
     border: 2px solid black;
-    bottom: -320px;
+    bottom: -260px;
     left:1090px;
     width: 400px;
 }

@@ -14,7 +14,7 @@
     cursor: url(../../font/Cursors/cursor1.cur), auto
 }
 body{
-    background: url("../../images/chat-background.jpg")no-repeat center center fixed;
+    background: url("../../Images/chat-background.jpg")no-repeat center center fixed;
     background-size: cover;
     font-size: 25px;
 }

@@ -14,7 +14,7 @@
     cursor: url(../../font/Cursors/cursor1.cur), auto
 }
 body{
-    background: url("../../images/games-background.jpg")no-repeat center center fixed;
+    background: url("../../Images/games-background.jpg")no-repeat center center fixed;
     background-size: cover;
     font-size: 25px;
 }
@@ -67,10 +67,14 @@ li a{
 .active{
     color: #64AAD0;
 }
-content{
+section{
     margin-left: 350px;
 }
-content .game{
+img{
+    width: 180px;
+    height: 180px;
+}
+section .game{
     padding: 10px;
     width: 250px;
     font-size: 30px;

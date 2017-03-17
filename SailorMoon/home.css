@@ -14,7 +14,7 @@
     cursor: url(font/Cursors/cursor1.cur), auto
 }
 body{
-    background: url("images/home-wallpaper.png")no-repeat center center fixed;
+    background: url("Images/home-wallpaper.png")no-repeat center center fixed;
     background-size: cover;
     font-size: 25px;
 }
@@ -67,7 +67,11 @@ li a{
 .active{
     color: #64AAD0;
 }
-content p{
+iframe{
+    width:560px;
+    height:315px;
+}
+section p{
     padding: 50px;
     margin: 0 auto;
     font-family: content;
