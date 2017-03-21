@@ -91,7 +91,8 @@ p{
 }
 #video{
     margin: 0 auto;
-    padding-left: 490px;
+    display: flex;
+    max-width: 100%;
     padding-top: 30px;
 }
 #backToTop{
@@ -115,5 +116,5 @@ footer{
     color: #086CA2;
     text-align: center;
     margin-top: 50px;
-    width: 1575px;
+    width: 100%;
 }
